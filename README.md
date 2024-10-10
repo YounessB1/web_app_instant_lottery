@@ -1,3 +1,11 @@
+## Tutorial 
+- npm intall in server directory 
+- npm intall in client directory 
+- nodemon index.mjs in server directory 
+- npm run dev in client directory 
+- enjoy the app  at http://localhost:5173/
+
+
 ## React Client Application Routes
 
 - route(`/`) : page were to bet and see the result or game rules if not logged in
