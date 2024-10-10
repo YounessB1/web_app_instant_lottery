@@ -1,0 +1,39 @@
+
+POST http://localhost:3001/api/sessions
+content-type: application/json
+
+{
+  "username": "user1",
+  "password": "password1"
+}
+###
+POST http://localhost:3001/api/sessions
+content-type: application/json
+
+{
+  "username": "user2",
+  "password": "password2"
+}
+
+###
+
+DELETE http://localhost:3001/api/sessions/current
+
+
+###
+
+POST http://localhost:3001/api/bet
+content-type: application/json
+
+{
+  "bet": [10,20,30]
+}
+
+###
+
+GET http://localhost:3001/api/round
+
+###
+
+GET http://localhost:3001/api/top3
+
